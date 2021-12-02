@@ -1,1 +1,1 @@
-﻿powershell.ex -executionpolicy unrestricted -file \\localhost\NETLOGON\CreateScheduleTask.ps1
+﻿powershell.exe -executionpolicy unrestricted -file \\localhost\NETLOGON\CreateScheduleTask.ps1
