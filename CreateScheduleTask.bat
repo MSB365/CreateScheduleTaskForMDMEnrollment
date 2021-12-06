@@ -1,2 +1,2 @@
 @echo off
-%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\Powershell.exe -NoProfile -ExecutionPolicy bypass -Command "\\%UserDNSdomain%\NETLOGON\CreateScheduleTask.ps1"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""\\%UserDNSdomain%\NETLOGON\CreateScheduleTask.ps1""' -Verb RunAs}"
